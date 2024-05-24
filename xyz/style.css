@@ -1,0 +1,77 @@
+
+p{
+    text-align: center;
+}
+/* h1{
+    text-align: center;
+    // text-decoration: red wavy underline; 
+    text-decoration: red dotted underline;
+} */
+#one{
+    font-family: Arial;
+}
+a{
+    text-decoration: none;
+}
+/* #h1{
+    font-weight: normal;
+}
+#h2{
+    font-weight: 100;
+}
+
+#h3{
+    font-weight: 800;
+}
+
+#h4{
+    font-weight: 400;
+} */
+
+
+
+/* #box{
+    background-color: blue;
+}
+.heaing{
+    color: blueviolet;
+}
+button{
+    background-color: aquamarine;
+} */
+
+
+
+
+/* *{
+    color: blue;
+}
+#headingone{
+    color: blue;
+}
+#headingtwo{
+    color: rgb(41, 140, 226);
+}
+.myclass{
+    color: rgb(209, 23, 23);
+}
+button{
+    color: brown;
+} */
+
+/* h1{
+    color: green;
+}
+p{
+    color: rgb(9, 201, 57);
+}
+button{
+    color: peru;
+    background-color: rgb(233, 240, 233);
+
+}   
+
+body{
+     background-color: rgb(191, 34, 115); 
+    background-color: #beb2be;
+} */
