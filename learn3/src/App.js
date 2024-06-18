@@ -11,6 +11,7 @@ function App() {
   const btnClicked = ()=>{
     console.log(inputElement.current);
     inputElement.current.style.background = "blue";
+    inputElement.current.style.color = "white";
   }
   
   return (
