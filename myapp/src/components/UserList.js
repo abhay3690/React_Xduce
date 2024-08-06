@@ -107,7 +107,7 @@ const UserList = () => {
   };
 
   const startEdit = (user) => {
-    setFormState(user);
+    setFormState(user); 
     setEditing(true);
   };
 
@@ -150,14 +150,17 @@ const UserList = () => {
           onChange={handleChange}
           required
         />
-        <input
-          type="text"
+        <select
           name="gender"
-          placeholder="Gender"
           value={formState.gender}
           onChange={handleChange}
           required
-        />
+        >
+          <option value="">Select Gender</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+        
         <button type="submit">{editing ? 'Update' : 'Add'} User</button>
       </form>
 
