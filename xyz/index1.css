@@ -1,44 +1,26 @@
-/* nav{
-    border: 2px solid #002e5b;
-    border-radius: 10px;
-    background-color: pink;
-    display:flex;
-    flex-wrap: wrap; 
-    transition: all 2s ease 0s;
- */
-
-    /* transform: rotate(360deg);
-    rotate: x 180deg; */
-   
-
-    /* transform: scale(0.5s); */
-
-/* }
-nav:hover{
-    transform: rotate(90deg);
+* {
+    margin: 0;
+    font-family: Arial;
 }
-
-nav a{
-    text-decoration:none;
-    color:#002e5b; 
-    font-size:18px; 
-    height: 3px;
-    padding: 25px 35px; 
-    transition: all 0.5s ease 0s;
-  } */
-main{
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
-.bag-button{
-    background-color: aqua;
-    border-radius: 10px;
-    border: none;
-    padding: 5px 15px;
+.nav-logo{
+    height: 50px;
+    width: 100px;
 }
-.wishlist-button{
-    padding: 5px 35px;
-    border: 2px  solid black;
-    border-radius: 10px;
+.logo{
+    background-image: url("image/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
 }
