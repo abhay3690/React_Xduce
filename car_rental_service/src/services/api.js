@@ -82,6 +82,11 @@ export const getCarsByCustomer = async () => {
   return response.data;
 };
 
+export const getCarByCstomerId = async () =>{
+  const responsee = await axios.get(`${API_URL}/customer/cars`);
+  return responsee.data;
+}
+
 export const getCarByCustomerId = async (carId) => {
   const response = await axios.get(`${API_URL}/customer/car/${carId}`);
   return response.data;
