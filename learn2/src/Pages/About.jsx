@@ -3,8 +3,7 @@ import React from 'react'
 const About = () => {
   return (
     <div>
-        This is the about pages 
-      
+      Data cna be modified with the About page.      
     </div>
   )
 }
