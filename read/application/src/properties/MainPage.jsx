@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import UnderPage from "./UnderPage"; 
 import { useNavigate } from "react-router-dom";
 
@@ -11,14 +11,23 @@ const MainPage = () => {
     surname1: "dalwadi",
   };
 
-  const navigate = useNavigate(2); 
+  const navigate = useNavigate(); 
+  const [message, setMessage] = useState('');
+  const handleClick = ()=>{
+    setMessage("Button was clicked");
+  }
+  
 
   const handleClickOtherPage = () => {
+    
     navigate("/otherpage");
   };
 
-  const handleClickUnderPage = () => {
+  const handleClickUnderPage = (name) => {
+    if(name){
+      console.log(name);
     navigate("/underpage");
+  }
   };
 
   function formatName(user) {
@@ -34,6 +43,12 @@ const MainPage = () => {
 
   return (
     <>
+
+<button onClick={handleClick}>
+    clcik me 
+  </button>
+  
+     <p>{message}</p>
       <h1>{title}</h1>
       <button onClick={handleClickOtherPage}>Go to Other Page</button>
       <button onClick={handleClickUnderPage}>Go to under Page</button>
